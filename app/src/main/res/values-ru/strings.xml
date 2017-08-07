@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Фонарик"</string>
+    <string name="flash">"Вспышка"</string>
+    <string name="flashNotSupported">"Ваше устройство не поддерживает работу со вспышкой."</string>
+    <string name="whiteScreen">"Экран"</string>
+    <string name="cameraNotAvailable">"Камера недоступна. Возможно используется другим приложением. Попробуйте перезагрузить устройство."</string>
+</resources>

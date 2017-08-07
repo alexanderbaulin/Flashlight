@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">"Flashlight"</string>
+    <string name="flashNotSupported">"Your device does not support flash."</string>
+    <string name="cameraNotAvailable">"Camera is not available. Perhaps used by another application. Try restarting the device."</string>
+    <string name="flash">"Flash"</string>
+    <string name="whiteScreen">"Screen"</string>
+</resources>

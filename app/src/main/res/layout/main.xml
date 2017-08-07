@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="1">
+
+    <ImageButton
+        android:id="@+id/btnFlashLight"
+        style="@android:style/Widget.Material.ImageButton"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.04"
+        android:contentDescription="@string/flash"
+        android:onClick="flashLight"
+        android:src="@drawable/ic_flash_on_white_36px"
+        android:textSize="20sp" />
+
+    <ImageButton
+        android:id="@+id/btnWhiteScreen"
+        style="@android:style/Widget.Material.ImageButton"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.04"
+        android:contentDescription="@string/whiteScreen"
+        android:onClick="whiteScreen"
+        android:src="@drawable/ic_settings_brightness_white_36px"
+        android:textSize="20sp" />
+
+</LinearLayout>
